@@ -50,7 +50,9 @@ think about how you can put 'John' and 'Doe' together to get 'John Doe'.*/
 
 // 5. Explain why this code logs '510' instead of 15. console.log('5' + 10);
 
-// ANSWER HERE 
+/* Since '5' is in the expression, the computer evaluates the whole expression as a string
+so 10 will get turned into a String and then concated with '5' resulting in '510'
+*/
 
 // 6. Refactor the code from the previous exercise to use explicit coercion, so it logs 15 instead.
 
@@ -66,7 +68,8 @@ think about how you can put 'John' and 'Doe' together to get 'John Doe'.*/
 // foo.length;  // returns 3
 // foo[3];      // will this result in an error?
 
-//ANSWER HERE
+/* At first I thought there would be an out of range error, if you try to access an index of an array that is out of its length-1.
+It will result in undefined.*/
 
 // 9. Create an array named names that contains a list of pet names.
 
