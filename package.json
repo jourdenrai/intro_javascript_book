@@ -1,0 +1,22 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jourdenrai/intro_javascript_book.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jourdenrai/intro_javascript_book/issues"
+  },
+  "homepage": "https://github.com/jourdenrai/intro_javascript_book#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
